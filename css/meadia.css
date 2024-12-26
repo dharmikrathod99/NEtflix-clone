@@ -1,0 +1,62 @@
+@media (max-width:457px) {
+    .imge img{
+        padding: auto;
+        height: 100px;
+        position: relative;
+        z-index: 10;
+    }
+    .imge video{
+        position: absolute;
+        height: 56px;
+        left: 16px;
+        top: 25px;
+    }
+    .hero-text {
+        color: white;
+        font-weight: bolder;
+        font-size: 10px;
+        padding: 30px 0px;
+        text-align: center;
+        /* position: static; */
+    }
+    .nav-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        z-index: 2;
+    }
+    .hero-text-1{
+        color: white;
+        font-weight: bolder;
+        font-size: 20px;
+        padding: 0px 0px;
+        text-align: center;
+    }
+    .hero-text-2{
+        font-size: 15px;
+    }
+    .hero-text-3{
+        font-size: 12px;
+    }
+    .hero-plac-start{
+        font-size: 10px;
+        padding: 6px;
+    }
+    .hero-plc-btn-start{
+        font-size: 10px;
+        padding: 6px;
+    }
+    .faqbox p{
+        padding: 0 60px;  
+        font-size: 10px;
+        margin: 0px;
+    }
+    .last-plac{
+        padding: 10px;
+    }
+    .text span{
+        font-size: 10px;
+    }
+}
